@@ -1,0 +1,104 @@
+/* Abe Lamoreaux, 4.14.2022 */
+/* Other Pages above, Tableau below */
+
+p {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: justify;
+}
+
+span {
+    color: rgb(235, 175, 184);
+    font-style: bold;
+    border: rgb(221, 0, 255);
+}
+
+
+.link {
+    color: rgb(221, 0, 255);
+    text-decoration: underline;
+}
+
+.contactme {
+    text-align: center;
+    color:rgb(73, 164, 195);
+    font-weight: bold;
+}
+
+.contactitems {
+    text-align: center;
+    font-style: italic;
+}
+
+.resumeListHeading {
+    font-weight: bold;
+    font-size: 22px;
+
+}
+
+.WithinList {
+    font-size: 18;
+    font-style: normal;
+}
+
+.homecenter {
+    text-align: center;
+}
+
+.photo1 {
+left: 300px;
+position: relative;
+}
+
+.photo2 {
+right: 200px;
+position: relative;
+}
+
+/* Tablo Page */
+
+.alltab {
+    position: absolute;
+}
+
+.header {
+    position: absolute;
+    font-size: 24px;
+    top: 5px;
+    right: 5px;
+    height: 100px;
+    z-index: 2;
+ }
+
+.mainbody{
+        /* position: absolute; */
+        /* top: 114px;
+        bottom: 64px;
+        left: 145px;
+        right: 145px; */
+        margin: auto;
+        width: 75%;
+}
+
+.footer{
+    bottom:5px;
+    height: 50px;
+    left: 5px;
+    right: 5px;
+    font-size: 12px;
+    /* color: #999999; */
+    text-align: center;
+    position: fixed;
+    color:blue;
+}
+
+.caption {
+    position: relative;
+    font-size: 36px;
+    text-align: center;
+    color: rgb(79, 12, 12);
+
+}
+
+.lasthref {
+    font-size: 24px;
+}
